@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CGMI Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user scalable=no">
+	<link rel="stylesheet" type="text/css" href="surveyform.css">
+</head>
+<body>
+    <div class="heading">
+    	<h1 id="title">CGMI Survey Form</h1>
+    	<p id="description">We appreciate you taking your time to help us improve CGMI</p>
+    </div>
+    <form id="survey-form">
+    	<div id="content1">
+    		<label id="name-label" for="name">Name</label> <br><br>
+    		<input type="text" name="name" id="name" placeholder="Enter your name" class="box" required> <br><br>
+    		<label id="email-label" for="email">Email</label> <br><br>
+    		<input type="email" name="email" id="email" placeholder="Enter your email" class="box" required> <br><br>
+    		<label id="number-label" for="number">Age <span class="clue">(Optional)</span></label> <br><br>
+    		<input type="number" id="number" min="8" max="99" name="age" placeholder="Enter your age" class="box"> <br><br>
+    		<label>How well do you understand the mission of CGMI?</label> <br><br>
+    	<div id="option1">
+    	    <select id="dropdown">
+    	    	<option disabled selected value>Select one option</option>
+    	    	<option value="I feel a deep connection to it.">I feel a deep connection to it.</option>
+    	    	<option value="I relate to it well enough">I relate to it well enough</option>
+    	    	<option value="I don’t feel connected to it.">I don’t feel connected to it.</option>
+    	    	<option value="I don’t understand what the mission is.">I don’t understand what the mission is.</option>
+    	    </select>
+    	</div><br>
+        <label id="head1">Do you leave services feeling spiritually fed?</label><br><br>
+        <input type="radio" value="often" name="radio" class="larger"> Often.<br> <br>
+        <input type="radio" value="sometimes" name="radio" class="larger"> Sometimes.<br> <br>
+        <input type="radio" value="not sure" name="radio" class="larger"> Not sure.<br> <br>
+        <input type="radio" value="never" name="radio" class="larger"> Never.<br> <br>
+        <label>Does the worship music at CGMI resonate with you?</label> <br>
+        <div id="option2">
+        	<select id="dropdown">
+                <option disabled selected value>Select an option</option>
+                <option value="Yes. The music helps me feel a much deeper connection to God.">Yes. The music helps me feel a much deeper connection to God.</option>
+                <option value="Sometimes.">Sometimes.</option>
+                <option value="I don’t feel a connection to the worship music.">I don’t feel any connection to the worship music.</option>
+                <option value="Iam not so sure">Iam not so sure</option>
+        	</select>
+        </div>
+        <br><br>
+        <label id="head2">We’re planning to implement several small groups, ministries, programs, or events in the next six months, and want to get a count of possible participants. Of the following, which would you most likely join or attend?<span class="clue">(Check all that apply)</span></label> <br>
+        <div id="content2">
+                <input type="checkbox" name="checkbox" value="the women's grou " class="larger"><label> The Women's Group</label> <br><br>
+                <input type="checkbox" name="checkbox" value="fellowship & community outreach" class="larger"><label> Fellowship & Community Outreach</label><br><br>
+                <input type="checkbox" name="checkbox" value="youth ministry" class="larger"><label> Youth Ministry</label></label><br><br>
+                <input type="checkbox" name="checkbox" value="worship & music ministry team" class="larger"><label> Worship & Music Ministry Team</label><br><br>
+                <input type="checkbox" name="checkbox" value="hospitality task force" class="larger"><label> Hospitality Task Force</label><br><br>
+                <input type="checkbox" name="checkbox" value="stewardship committee" class="larger"><label> Stewardship Committee</label><br><br>
+                <input type="checkbox" name="checkbox" value="media ministry team" class="larger"><label> Media Ministry Team</label><br><br>
+                <input type="checkbox" name="checkbox" value="estate & properties ministry team" class="larger"><label> Estate & Properties Ministry Team</label><br><br>
+                <input type="checkbox" name="checkbox" value="children's ministry" class="larger"><label> Children's Ministry</label><br><br>
+                <input type="checkbox" name="checkbox" value="safety ministry team" class="larger"><label> Safety Ministry Team</label><br><br>
+        </div>
+        <label id="head2">Any comments and suggestions?</label> <br>
+        <textarea placeholder="Please enter your comment here..."></textarea> <br>
+        <button id="submit" type="submit"><h2>Submit</h2></button>
+    </form> 
+</body>
+</html>
