@@ -1,1 +1,1 @@
-# Survey-Page is a freecodecamp project i did fr the Lagacy Responsive Web Design Certification. 
+# Survey-Form is a freecodecamp project i did fr the Lagacy Responsive Web Design Certification. 
